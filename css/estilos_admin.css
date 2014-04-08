@@ -12,6 +12,10 @@ a:hover
 {
 	text-decoration: none;
 }
+header nav ul li #en 
+{
+	border: 2px solid blue;
+}
 header nav
 {
 	background-color: #800040; 
@@ -31,28 +35,24 @@ header nav ul li
 }
 header nav ul li a
 {
-<<<<<<< HEAD
-	font-size: 13px;
-	display: block;
-	padding: 0.4em;
-
-	border-bottom: 2px solid transparent;
-=======
-	font-size: 14px;
+	font-size: 12px;
 	display: block;
 	padding: 0.4em;
 
 	border-bottom: 3px solid transparent;
->>>>>>> origin/master
+}
+header nav ul li #avatar
+{
+	width: 50px;
+}
+header nav ul li #avatar img 
+{
+	width: 100%;
 }
 header nav ul li a:hover
 {
 	color: white;
-<<<<<<< HEAD
-	border-bottom: 2px solid #E02222;
-=======
 	border-bottom: 3px solid #E02222;
->>>>>>> origin/master
 }
 header nav ul li:first-child
 {
@@ -61,7 +61,7 @@ header nav ul li:first-child
 }
 header nav ul li:first-child figure
 {
-	width: 35px;
+	width: 50px;
 	position: relative;
 }
 header nav ul li:first-child figure img

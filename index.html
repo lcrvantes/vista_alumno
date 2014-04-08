@@ -1,60 +1,79 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=no">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=no">
 	<title>Instituto Campechano</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
 	<link rel="stylesheet" href="css/estilos_admin.css">
 </head>
 <body>
-	<header>
+
+<header>
 	<nav>
 		<ul>
-			<li>
-				<figure>
-					<img src="img/logo_escuela.png" alt="">
-				</figure>
+			<li id="en">
 			</li>
-			<li><a href="#">X Salir</a></li>
-			<li><a href="#">Cervantes Martínez Luis Marcelo</a></li>
-			<li>
-				<figure>
-					<img src="img/avatar.jpg" alt="" class="img img-circle">
-				</figure>
-			</li>
+			<li><a href="#">Salir</a></li>
+      <li>
+        <a href="">Cervantes Martínez Luis Marcelo</a>
+      </li>
+      <li>
+        <figure id="avatar">
+          <img src="img/avatar.jpg" alt="" class="img-circle">
+        </figure>
+      </li>
 		</ul>
 	</nav>
 </header>
-	<form role="form">
-		<h1 class="titulo">
-			Encuesta Docente
-		</h1>
-  		<fieldset>
-	    	<div class="form-group">
-	    		<label for="">¿Pregunta?</label>
-	    		<br><br>
-	      		<label for="listaDeshabilitada">Maestro</label>
-	      		<select id="listaDeshabilitada" class="form-control">
-	        	<option>Muy Bueno</option>
-	        	<option value="">Excelente</option>
-	        	<option value="">Bueno</option>
-	        	<option value="">Malo</option>
-	        	<option value="">Muy Malo</option>
-	      		</select>
-	      		<br><br>
-	      		<label for="">Maestro</label>
-	      		<select id="listaDeshabilitada" class="form-control">
-	        	<option>Muy Bueno</option>
-	        	<option value="">Excelente</option>
-	        	<option value="">Bueno</option>
-	        	<option value="">Malo</option>
-	        	<option value="">Muy Malo</option>
-	      		</select>
-	    	</div>
-	    	<button type="submit" class="btn btn-primary">Siguiente</button>
-  		</fieldset>
-	</form>
+<form role="form">
+  <fieldset>
+    <div class="form-group">
+      <label for="listaDeshabilitada">Maestro</label>
+      <select id="listaDeshabilitada" class="form-control">
+        <option>Muy Bueno</option>
+        <option>Excelente</option>
+        <option>Bueno</option>
+        <option>Malo</option>
+        <option>Muy Malo</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="listaDeshabilitada">Maestro</label>
+      <select id="listaDeshabilitada" class="form-control">
+        <option>Muy Bueno</option>
+        <option>Excelente</option>
+        <option>Bueno</option>
+        <option>Malo</option>
+        <option>Muy Malo</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="listaDeshabilitada">Maestro</label>
+      <select id="listaDeshabilitada" class="form-control">
+        <option>Muy Bueno</option>
+        <option>Excelente</option>
+        <option>Bueno</option>
+        <option>Malo</option>
+        <option>Muy Malo</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="listaDeshabilitada">Maestro</label>
+      <select id="listaDeshabilitada" class="form-control">
+        <option>Muy Bueno</option>
+        <option>Excelente</option>
+        <option>Bueno</option>
+        <option>Malo</option>
+        <option>Muy Malo</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </fieldset>
+</form>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>
