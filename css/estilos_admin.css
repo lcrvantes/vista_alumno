@@ -1,0 +1,100 @@
+body
+{
+	font-size: 16px;
+	font-family: 'Open Sans', 'Serif';
+	color: #999999;
+}
+a
+{
+	color: #999999;
+}
+a:hover
+{
+	text-decoration: none;
+}
+header nav
+{
+	background-color: #800040; 
+	width: 100%; 
+}
+header nav ul
+{
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	overflow: hidden;
+}
+header nav ul li
+{
+	display: inline-block;
+	float: right;
+}
+header nav ul li a
+{
+<<<<<<< HEAD
+	font-size: 13px;
+	display: block;
+	padding: 0.4em;
+
+	border-bottom: 2px solid transparent;
+=======
+	font-size: 14px;
+	display: block;
+	padding: 0.4em;
+
+	border-bottom: 3px solid transparent;
+>>>>>>> origin/master
+}
+header nav ul li a:hover
+{
+	color: white;
+<<<<<<< HEAD
+	border-bottom: 2px solid #E02222;
+=======
+	border-bottom: 3px solid #E02222;
+>>>>>>> origin/master
+}
+header nav ul li:first-child
+{
+	vertical-align: top;
+	float: left;
+}
+header nav ul li:first-child figure
+{
+	width: 35px;
+	position: relative;
+}
+header nav ul li:first-child figure img
+{
+	width: 100%;
+}
+header nav ul li figure .img
+{
+	vertical-align: top;
+	width: 35px;
+}
+.cabecera_admin
+{
+	margin-top: 1em;
+}
+.cabecera_admin div h2
+{
+	display: inline-block;
+	margin: 0;
+	padding-left: 0.5em;
+	font-size: 1.1em;
+}
+.cabecera_admin div a
+{
+	display: inline-block;
+	float: right;
+	margin-right: 0.5em;
+}
+form fieldset
+{
+	margin-top: 2em;
+}
+form fieldset .btn
+{
+	float: right;
+}

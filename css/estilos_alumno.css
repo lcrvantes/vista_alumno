@@ -1,0 +1,66 @@
+body
+{
+	font-size: 16px;
+	font-family: 'Open Sans', 'Serif';
+	color:#999999;
+}
+a
+{
+	color: #999999;
+}
+a:hover
+{
+	text-decoration: none;
+}
+header nav
+{
+	background-color: #212121;
+	width: 100%;
+}
+header nav ul
+{
+	font-size: 0;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+header nav ul li 
+{
+	display: inline-block;
+	float: right;
+}
+header nav ul li a
+{
+	border-bottom: 4px solid transparent;
+	display: block;
+	font-size: 16px;
+	padding: 0.7em;
+}
+header nav ul li a:hover
+{
+	color: white;
+	border-bottom: 4px solid #E02222;
+}
+header nav ul li:first-child
+{
+	vertical-align: top;
+	float: left;
+}
+header nav ul li:first-child figure
+{
+	margin-left: 2em;
+	width: 40px;
+	position: relative;
+}
+header nav ul li:first-child figure img
+{
+	width: 100%;
+}
+form fieldset
+{
+	margin-top: 4em;
+}
+form fieldset .btn
+{
+	float: right;
+}
